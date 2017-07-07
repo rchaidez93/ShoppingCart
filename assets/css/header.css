@@ -7,9 +7,22 @@ and open the template in the editor.
     Created on : May 21, 2017, 9:01:03 PM
     Author     : Richard
 */
-
+#wrapper{
+    border:1px;
+}
 .header-site{
+    display:inline-block;
     background-image:url('../images/mensbanner.jpg');
     width:40%;
-    padding:50px 170px 197px 54px;
+    padding:50px 170px 119px 54px;
+}
+
+.checkout-box{
+    display:inline-block;
+    padding-right:35px;
+    padding-left:1px;
+    background-color: 	#0d2838;
+    width: 275px;
+    height:169px;
+    margin-left: 0px; 
 }
