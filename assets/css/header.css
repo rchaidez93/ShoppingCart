@@ -36,10 +36,42 @@ body{
     
     position: absolute;
     margin:auto;
-    width:25%;
+    width:22.5%;
     height:25%;
     background-color: #0d2838;
     right:0;
     top:0;
     
+    
+}
+table, th, td {
+    border: 1px solid white;
+}
+#checkout-info{
+    color:white;
+    text-align: center;
+}
+.checkout{
+    color:white;
+    text-align: center;
+    font-size: xx-large;
+    text-decoration-line: underline
+}
+#checkout-button{
+    background-color: yellow;
+    width: 80%;
+}
+
+#checkout-table{
+    margin:auto;
+    margin-top: 10px;
+    width:100%;
+}
+
+#go-checkout{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    text-decoration-line: underline;
+    margin:35px 0;
 }
