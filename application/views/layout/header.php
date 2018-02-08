@@ -11,12 +11,12 @@ include_once 'assets/js/checkout.js';
     <body>
         <div id ='wrapper'> 
             <div class ='header-site' style = "margin-left: 20%;"></div>
-            <div class = 'checkout-box' >
-                <div class ="checkout">
-                    
+                <div class = 'checkout-box' >
+                    <div class ="checkout">
+
+                    </div>
                 </div>
             </div>
-        </div>
         
     
     
