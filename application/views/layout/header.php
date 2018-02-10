@@ -6,13 +6,36 @@
     <head>
         <title>Richard and Amber's Store</title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type='text/javascript' src="<?php echo base_url(); ?>assets/js/categories.js"></script>
         <script type='text/javascript' src="<?php echo base_url(); ?>assets/js/checkout.js"></script>
         <link href="<?php echo base_url('assets/css/header.css'); ?>" rel="stylesheet" type="text/css" media="screen" />
         <link href="<?php echo base_url('assets/css/footer.css'); ?>" rel="stylesheet" type="text/css" media="screen" />
     </head>
     <body>
         <div id ='wrapper'> 
-            <div class ='header-site'></div>
+            <div id='table'>
+                <table class = "sidebar-menu">
+                    <tr>
+                        <td id = "apparel">
+                            
+                        </td>
+                        <td id = "shoes">
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id = "accessories">
+                            
+                        </td>
+                        <td id = "jewellery">
+                            
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class ='header-site'>
+                <img src = "<?php echo base_url('assets/images/mensbanner.jpg'); ?>"> 
+            </div>
                 <div class = 'checkout-box' >
                     <div class ="checkout">
                         <span>Cart</span>
