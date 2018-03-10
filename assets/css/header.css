@@ -45,14 +45,75 @@ img {
     background-color: #0d2838;
     left: 0;
     top: 0;
+    z-index: 1;
 }
+#menu1{
+    position: absolute;
+    margin: auto;
+    width: 22.5%;
+    height: 100%;
+    background-color: #0d2838;
+    left: 0;
+    top: 0;
+}
+#menu2{
+    position: absolute;
+    margin: auto;
+    width: 22.5%;
+    height: 100%;
+    background-color: #0d2838;
+    left: 0;
+    top: 0;
+}
+#menu3{
+    position: absolute;
+    margin: auto;
+    width: 22.5%;
+    height: 100%;
+    background-color: #0d2838;
+    left: 0;
+    top: 0;
+}
+#menu4{
+    position: absolute;
+    margin: auto;
+    width: 22.5%;
+    height: 100%;
+    background-color: #0d2838;
+    left: 0;
+    top: 0;
+}
+.nav2{
+    border-spacing: 3px;
+    margin: auto;
+    width: 100%;
+    height: 25%;
+    background-color: #0d2838;
+}
+.nav-list {
+    padding: 0;
+    margin: 0;
+}
+.nav-item {
+    position: relative;
+    list-style: none;
+}
+.nav-link {
+    color: rgba(255,255,255,.7);
+    font-family: geomanist,-apple-system,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    letter-spacing: .2px;
+    display: block;
+    padding: 12px 20px;
+    line-height: 24px;
+}
+
 
 .sidebar-menu{
     border-spacing: 3px;
     position: absolute;
     margin: auto;
     width: 100%;
-    height: 102%;
+    height: 100%;
     background-color: #0d2838;
 }
 .sidebar-menu{
@@ -121,4 +182,14 @@ table, th, td {
     font-size: larger;
     text-decoration-line: underline;
     margin:35px 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
 }

@@ -6,21 +6,42 @@
 
 
 $(document).ready(function(){
+    /*not displaying the menus on page load until button are clicked*/
+   $('#menu1').hide();
+   $('#menu2').hide();
+   $('#menu3').hide();
+   $('#menu4').hide();
    
    $('#apparel').on('click',function(){
-      alert("Clicked to see apperal"); 
+       /*easy way out*/
+        $('#menu2').hide();
+        $('#menu3').hide();
+        $('#menu4').hide();
+        $('#menu1').toggle('show');
    });
    
    $('#shoes').on('click',function(){
-      alert("Clicked to see shoes"); 
+       /*easy way out*/
+        $('#menu1').hide();
+        $('#menu3').hide();
+        $('#menu4').hide();
+        $('#menu2').toggle('show');
    });
    
    $('#jewellery').on('click',function(){
-      alert("Clicked to see jewellery"); 
+       /*easy way out*/
+        $('#menu2').hide();
+        $('#menu1').hide();
+        $('#menu4').hide();
+        $('#menu3').toggle('show');
    });
    
    $('#accessories').on('click',function(){
-      alert("Clicked to see accessories"); 
+       /*easy way out*/
+        $('#menu2').hide();
+        $('#menu3').hide();
+        $('#menu1').hide();
+        $('#menu4').toggle('show');
    });
    
 });
