@@ -50,7 +50,7 @@ img {
 #menu1{
     position: absolute;
     margin: auto;
-    width: 22.5%;
+    width: 11%;
     height: 100%;
     background-color: #0d2838;
     left: 0;
@@ -59,7 +59,7 @@ img {
 #menu2{
     position: absolute;
     margin: auto;
-    width: 22.5%;
+    width: 11%;
     height: 100%;
     background-color: #0d2838;
     left: 0;
@@ -68,7 +68,7 @@ img {
 #menu3{
     position: absolute;
     margin: auto;
-    width: 22.5%;
+    width: 11%;
     height: 100%;
     background-color: #0d2838;
     left: 0;
@@ -77,7 +77,7 @@ img {
 #menu4{
     position: absolute;
     margin: auto;
-    width: 22.5%;
+    width: 11%;
     height: 100%;
     background-color: #0d2838;
     left: 0;
@@ -97,6 +97,7 @@ img {
 .nav-item {
     position: relative;
     list-style: none;
+    text-align: center;
 }
 .nav-link {
     color: rgba(255,255,255,.7);
@@ -106,7 +107,10 @@ img {
     padding: 12px 20px;
     line-height: 24px;
 }
-
+a.active{
+    background:  #000080;
+    opacity: 0.9;
+}
 
 .sidebar-menu{
     border-spacing: 3px;

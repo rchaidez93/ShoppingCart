@@ -9,6 +9,7 @@
         <script type='text/javascript' src="<?php echo base_url(); ?>assets/js/categories.js"></script>
         <script type='text/javascript' src="<?php echo base_url(); ?>assets/js/checkout.js"></script>
         <link href="<?php echo base_url('assets/css/header.css'); ?>" rel="stylesheet" type="text/css" media="screen" />
+        <link href="<?php echo base_url('assets/css/shoppingtable.css'); ?>" rel="stylesheet" type="text/css" media="screen" />
         <link href="<?php echo base_url('assets/css/footer.css'); ?>" rel="stylesheet" type="text/css" media="screen" />
     </head>
     <body>

@@ -15,7 +15,7 @@ Class Categories extends CI_Controller{
     
     public function index(){
         $this->load->view("layout/header");
-        $this->load->view("Categories/index");
+        $this->load->view("Categories/shoppinglist");
         $this->load->view("layout/footer");
     }
     

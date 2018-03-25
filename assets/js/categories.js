@@ -44,4 +44,8 @@ $(document).ready(function(){
         $('#menu4').toggle('show');
    });
    
+   $('.nav-link').hover(function(){
+       $(this).toggleClass("active");
+   });
+   
 });
