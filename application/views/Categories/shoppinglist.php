@@ -6,9 +6,8 @@
  * and open the template in the editor.
  */
 ?>
-<div  class="centered">
-<table border = '1' class = "centered-shoppingtable">
-  <tr>
+<table class="shopping-table" border="1px">
+    <tr>
     <th>Company</th>
     <th>Contact</th>
     <th>Country</th>
@@ -43,6 +42,4 @@
     <td>Giovanni Rovelli</td>
     <td>Italy</td>
   </tr>
-</table>    
-    
-</div>
+</table>
