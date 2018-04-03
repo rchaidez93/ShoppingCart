@@ -10,7 +10,7 @@
     <tr>
     <th>Company</th>
     <th>Contact</th>
-    <th>Country</th>
+    <th>Countrys</th>
   </tr>
   <tr>
     <td>Alfreds Futterkiste</td>
