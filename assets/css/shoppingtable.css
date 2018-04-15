@@ -8,15 +8,71 @@ and open the template in the editor.
     Author     : Richard
 */
 
-.shopping-table {
+.shopping-table-container{
     position: absolute;
     left: 0;
     right: 0;
-    top: 100px;
-    bottom: 50px;
+    bottom: 40px;
     margin: auto;
     width: 55%;
-    height: 50%;
-    background-color: #A9A9A9;
+    height: auto;
+    background-color: #a9a9a966;
     text-align: center;
+    max-height: 73%;
+}
+
+#shopping-table {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.dataTables_wrapper{
+    position: relative;
+    clear: both;
+    zoom: 1;
+    margin-bottom: 2%;
+}
+.dataTables_wrapper no_footer{
+    height: auto;
+    max-height: 60%;
+}
+
+.thumbnail  {
+	position: relative;
+	float: left;
+	padding: 5px;
+	/*z-index: 0;*/
+}
+
+.thumbnail:hover {
+	background-color: #e9e9e2;
+	/*z-index: 50;*/
+	color: #335500;
+	text-decoration: none;
+}
+
+.thumbnail span { /*CSS for enlarged image*/
+	position: absolute;
+	background-color: #e5e5e5;
+	padding: 5px;
+	/*left: -1000px;*/
+	border: 1px solid #666;
+	visibility: hidden;
+	color: black;
+	text-decoration: none;
+}
+
+.thumbnail span img { /*CSS for enlarged image*/
+	border-width: 0px; 
+	/*padding: 2px;*/
+}
+
+.thumbnail:hover span { /*CSS for enlarged image on hover*/
+	visibility: visible; 
+	width: 200px;
+	top: 5px; /* use IF IE6 style to correct IE6 positions of larger image relative to thumb */
+	left: 300px;/*position where enlarged image should offset horizontally */
 }

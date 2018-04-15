@@ -15,8 +15,19 @@ Class Categories extends CI_Controller{
     
     public function index(){
         $this->load->view("layout/header");
-        $this->load->view("Categories/shoppinglist");
+        $data = array();
+        $books_found = $this->get_books_test();
+        $data['books_found'] = $books_found;
+        $this->load->view("Categories/shoppinglist",$data);
         $this->load->view("layout/footer");
+    }
+    
+    public function get_books_test(){
+        
+        $query = $this->db->query("select * from bx_books LIMIT 60");
+        return $query->result_array();
+        
+        
     }
     
 }

@@ -19,29 +19,30 @@ body{
 }
 .header-site{
     
-    position:absolute;
-    left:0;
-    right:0;
-    top:0;
-    margin:auto;
-    width:55%;
-    min-width: 50%;
-    height:25%;   /* Height of the footer */
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    width: 55%;
+    min-width: 44%;
+    height: 22%;
     text-align: center;
+    z-index: 1;
 }
 
 img {
-    width: 100%;
-    height: auto;
+        width: 100%;
+    height: 90.5%;
     max-height: 100%;
-    min-height: 100%;
+    min-height: 18%;
 }
 
 #table{
-    position: absolute;
+    position: fixed;
     margin: auto;
     width: 22.5%;
-    height: 25%;
+    height: 22%;
     background-color: #0d2838;
     left: 0;
     top: 0;
@@ -142,13 +143,13 @@ a.active{
 
 .checkout-box{
     
-    position: absolute;
-    margin:auto;
-    width:22.5%;
-    height:25%;
+    position: fixed;
+    margin: auto;
+    width: 22.5%;
+    height: 22%;
     background-color: #0d2838;
-    right:0;
-    top:0;
+    right: 0;
+    top: 0;
     
     
 }

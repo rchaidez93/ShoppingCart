@@ -6,8 +6,11 @@
     <head>
         <title>Richard and Amber's Store</title>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
         <script type='text/javascript' src="<?php echo base_url(); ?>assets/js/categories.js"></script>
         <script type='text/javascript' src="<?php echo base_url(); ?>assets/js/checkout.js"></script>
+        <link href="<?php echo base_url('assets/css/datatables.css'); ?>" rel="stylesheet" type="text/css" media="screen" />
         <link href="<?php echo base_url('assets/css/header.css'); ?>" rel="stylesheet" type="text/css" media="screen" />
         <link href="<?php echo base_url('assets/css/shoppingtable.css'); ?>" rel="stylesheet" type="text/css" media="screen" />
         <link href="<?php echo base_url('assets/css/footer.css'); ?>" rel="stylesheet" type="text/css" media="screen" />
@@ -116,7 +119,7 @@
         </div>
             
             <div class ='header-site'>
-                <img src = "<?php echo base_url('assets/images/mensbanner.jpg'); ?>"> 
+                <img src = "<?php echo base_url('assets/images/bookheader.jpg'); ?>"> 
             </div>
             <div class = 'checkout-box' >
                 <div class ="checkout">
