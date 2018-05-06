@@ -6,46 +6,25 @@
 
 
 $(document).ready(function(){
-    /*not displaying the menus on page load until button are clicked*/
-   $('#menu1').hide();
-   $('#menu2').hide();
-   $('#menu3').hide();
-   $('#menu4').hide();
-   
-   $('#apparel').on('click',function(){
-       /*easy way out*/
-        $('#menu2').hide();
-        $('#menu3').hide();
-        $('#menu4').hide();
-        $('#menu1').toggle('show');
-   });
-   
-   $('#shoes').on('click',function(){
-       /*easy way out*/
-        $('#menu1').hide();
-        $('#menu3').hide();
-        $('#menu4').hide();
-        $('#menu2').toggle('show');
-   });
-   
-   $('#jewellery').on('click',function(){
-       /*easy way out*/
-        $('#menu2').hide();
-        $('#menu1').hide();
-        $('#menu4').hide();
-        $('#menu3').toggle('show');
-   });
-   
-   $('#accessories').on('click',function(){
-       /*easy way out*/
-        $('#menu2').hide();
-        $('#menu3').hide();
-        $('#menu1').hide();
-        $('#menu4').toggle('show');
-   });
-   
-   $('.nav-link').hover(function(){
-       $(this).toggleClass("active");
-   });
+
+    $('#openNav').on('click',function(){
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    });
+
+    $('#closeNav').on('click',function(){
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+    });
+    
+    $(".ratings-dropdown").hide();
+    $(".price-dropdown").hide();
+    
+    $(".dropdown-ratings").on('click',function(){
+        $(".ratings-dropdown").toggle();
+    });
+    $(".dropdown-price").on('click',function(){
+        $(".price-dropdown").toggle();
+    });
    
 });
