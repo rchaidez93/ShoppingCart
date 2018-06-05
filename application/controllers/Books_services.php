@@ -1,0 +1,38 @@
+<?php
+
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+class Books_services extends CI_Controller{
+    
+    function __construct()
+    {
+        parent:: __construct();
+        $this->load->helper('url');
+    }
+    
+    public function add_rating(){
+        $isbn = $this->input->post("rate_info[isbn]");
+        $rating = $this->input->post("rate_info[rating]");
+        $data = array('rating' => $rating,
+            'isbn' => $isbn
+        );
+       
+        //load books model
+        $this->load->model("books_model");
+        $result = $this->books_model->add_book_rating($data);
+        
+        //Either you can print value or you can send value to database
+        echo json_encode(array("result"=>$result));
+        
+    }
+    
+    
+    public function get_rating(){
+        
+    }
+    
+}

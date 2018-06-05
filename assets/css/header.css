@@ -38,109 +38,6 @@ img {
     min-height: 18%;
 }
 
-/*#table{
-    position: fixed;
-    margin: auto;
-    width: 22.5%;
-    height: 22%;
-    background-color: #0d2838;
-    left: 0;
-    top: 0;
-    z-index: 1;
-}
-#menu1{
-    position: absolute;
-    margin: auto;
-    width: 11%;
-    height: 100%;
-    background-color: #0d2838;
-    left: 0;
-    top: 0;
-}
-#menu2{
-    position: absolute;
-    margin: auto;
-    width: 11%;
-    height: 100%;
-    background-color: #0d2838;
-    left: 0;
-    top: 0;
-}
-#menu3{
-    position: absolute;
-    margin: auto;
-    width: 11%;
-    height: 100%;
-    background-color: #0d2838;
-    left: 0;
-    top: 0;
-}
-#menu4{
-    position: absolute;
-    margin: auto;
-    width: 11%;
-    height: 100%;
-    background-color: #0d2838;
-    left: 0;
-    top: 0;
-}
-.nav2{
-    border-spacing: 3px;
-    margin: auto;
-    width: 100%;
-    height: 25%;
-    background-color: #0d2838;
-}
-.nav-list {
-    padding: 0;
-    margin: 0;
-}
-.nav-item {
-    position: relative;
-    list-style: none;
-    text-align: center;
-}
-.nav-link {
-    color: rgba(255,255,255,.7);
-    font-family: geomanist,-apple-system,BlinkMacSystemFont,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
-    letter-spacing: .2px;
-    display: block;
-    padding: 12px 20px;
-    line-height: 24px;
-}
-a.active{
-    background:  #000080;
-    opacity: 0.9;
-}
-
-.sidebar-menu{
-    border-spacing: 3px;
-    position: absolute;
-    margin: auto;
-    width: 100%;
-    height: 100%;
-    background-color: #0d2838;
-}
-.sidebar-menu{
-  border-spacing: 3px;
-}
-.sidebar-menu td{
-  border-color: #92A5BD;
-  border-width: 3px;
-  border-style: outset;
-  padding: 3px;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  text-align: center;
-  cursor: pointer;
-  width: 3em;
-  height: 3em;
-}
-.sidebar-menu td:hover{
-  border-style: inset;  button appearance w/ border style 
-  background-color: #F99;
-}*/
-
 .sidenav {
     height: 100%;
     width: 0;
@@ -173,6 +70,7 @@ a.active{
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    cursor: pointer;
 }
 
 #main {

@@ -9,11 +9,13 @@
         <link href="<?php echo base_url('assets/css/header.css'); ?>" rel="stylesheet" type="text/css" media="screen" />
         <link href="<?php echo base_url('assets/css/shoppingtable.css'); ?>" rel="stylesheet" type="text/css" media="screen" />
         <link href="<?php echo base_url('assets/css/footer.css'); ?>" rel="stylesheet" type="text/css" media="screen" />
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
         <script type='text/javascript' src="<?php echo base_url(); ?>assets/js/categories.js"></script>
-        <script type='text/javascript' src="<?php echo base_url(); ?>assets/js/checkout.js"></script>
+        <script type='text/javascript' src="<?php echo base_url(); ?>assets/js/shopping_cart.js"></script>
+        <script type='text/javascript' src="<?php echo base_url(); ?>assets/js/ratings.js"></script>
     </head>
     <body>
         
@@ -24,7 +26,12 @@
             <div class = 'checkout-box' >
                 <div class ="checkout">
                     <span>Cart</span>
+                    <div>
+                        <button id="view_cart" class="ui-button ui-widget ui-corner-all" style="width: 75px;height: 23px;font-size: 11px;">View Cart</button>
+
                 </div>
+                </div>
+                
                 <div id = "checkout-info">
                     <table id = "checkout-table">
                         <tr>
@@ -32,8 +39,8 @@
                             <th>Total</th>
                         </tr>
                         <tr>
-                            <td>5</td>
-                            <td>$10.00</td>
+                            <td>0</td>
+                            <td>0</td>
                         </tr>
                     </table>
                 </div>

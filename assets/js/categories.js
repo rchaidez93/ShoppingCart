@@ -19,12 +19,16 @@ $(document).ready(function(){
     
     $(".ratings-dropdown").hide();
     $(".price-dropdown").hide();
+    $('.publication-dropdown').hide();
     
     $(".dropdown-ratings").on('click',function(){
-        $(".ratings-dropdown").toggle();
+        $(".ratings-dropdown").toggle('&#8679');
     });
     $(".dropdown-price").on('click',function(){
         $(".price-dropdown").toggle();
+    });
+    $(".publication-years").on('click',function(){
+        $(".publication-dropdown").toggle();
     });
    
 });

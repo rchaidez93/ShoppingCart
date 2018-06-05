@@ -74,5 +74,39 @@ and open the template in the editor.
 	visibility: visible; 
 	width: 200px;
 	top: 5px; /* use IF IE6 style to correct IE6 positions of larger image relative to thumb */
-	left: 300px;/*position where enlarged image should offset horizontally */
+	left: 300px;/*position where enlarged image should offset horizontally */       
+}
+
+.star_selection {
+    float:left;
+    width:300px;
+    margin-left: 12px;
+    padding-top: 30px;
+}
+.star_selection span { float:right; position:relative; }
+.star_selection span input {
+    position:absolute;
+    top:0px;
+    left:0px;
+    opacity:0;
+}
+.star_selection span label {
+    display:inline-block;
+    width:30px;
+    height:30px;
+    text-align:center;
+    color:#FFF;
+    background:#ccc;
+    font-size:30px;
+    margin-right:2px;
+    line-height:30px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+}
+.star_selection span:hover ~ span label,
+.star_selection span:hover label,
+.star_selection span.checked label,
+.star_selection span.checked ~ span label {
+    background:#F90;
+    color:#FFF;
 }
