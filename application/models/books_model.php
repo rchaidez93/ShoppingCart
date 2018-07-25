@@ -81,4 +81,16 @@ class books_model extends CI_Controller{
         
     }
     
+    //insert comments for a book
+    public function add_book_comment($book_data){        
+        
+        //don't need rating info for this
+        unset($book_data['rating']);
+        
+        $result = $this->db->insert('books_comments',$book_data);
+        
+        return $result;
+        
+    }
+    
 }

@@ -58,7 +58,7 @@ var base_url = '<?php echo base_url();?>';
             $imageData = base64_encode(file_get_contents($books['Image-URL-S']));
             $title = strlen($books['book_title']) > 15 ? substr($books['book_title'],0,15)."..." : $books['book_title'];
     ?>
-<!--    black star->  &#9733;-->
+
             <tr>
                 <td id = "<?php echo $books['ISBN'];?>" style = 'width:5px;'><?php echo "<img style='height: 65px;' alt = '". $books['book_title']."' src='data:image/jpeg;base64,".$imageData."'<br>". $title?></td>
                 <td><?php echo $books['book_author']?></td>
@@ -97,14 +97,7 @@ var base_url = '<?php echo base_url();?>';
 
 
 <div class = "ratings_dialog" title = "Rate this book!">
-<!--    <div id = "star_selection">Select stars</div>
-    
-    <span id = "5-star">&#9734;</span><span id = "4-star">&#9734;</span><span id = "3-star">&#9734;</span><span id = "2-star">&#9734;</span><span id = "1-star">&#9734;</span>
-    <div>
-        Leave comment
-    </div>
-    <textarea rows="4" cols="50" name="comment" form="usrform">
-    Enter text here...</textarea>-->
+
     <div class = "star_selection">
         <div>
             <span><input type="radio" name="rating" id="str5" value="5"><label for="str5">&#9734;</label></span>
@@ -116,7 +109,7 @@ var base_url = '<?php echo base_url();?>';
     </div>
    <div style="padding: 80px;padding-bottom: 20px;text-align: center;">
        <span> Leave comment</span>
-        <textarea rows="4" cols="30" name="comment" form="usrform">Enter text here...</textarea>
+       <textarea id = "comment" rows="4" cols="30" name="comment" form="usrform" placeholder="Enter text here..."></textarea>
     </div>
     
 </div>

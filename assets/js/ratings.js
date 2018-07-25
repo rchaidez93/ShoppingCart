@@ -14,6 +14,7 @@ $(document).ready(function(){
         width: '500px',
         buttons: {
            'Rate!': function() {
+               rate_info.comment = $("#comment").val();
                ajax_service_call();
                rate_info = {};
                //get new data from ajax, redraw table;
