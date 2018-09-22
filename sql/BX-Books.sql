@@ -20,6 +20,20 @@ CREATE TABLE `BX-Books` (
   PRIMARY KEY  (`ISBN`)
 ) TYPE=MyISAM;
 
+CREATE TABLE `bx_books` (
+  `ISBN` varchar(13) CHARACTER SET latin1 COLLATE latin1_bin NOT NULL DEFAULT '',
+  `book_title` varchar(255) DEFAULT NULL,
+  `book_author` varchar(255) DEFAULT NULL,
+  `year_of_publication` int(10) unsigned DEFAULT NULL,
+  `publisher` varchar(255) DEFAULT NULL,
+  `Image-URL-S` varchar(255) CHARACTER SET latin1 COLLATE latin1_bin DEFAULT NULL,
+  `Image-URL-M` varchar(255) CHARACTER SET latin1 COLLATE latin1_bin DEFAULT NULL,
+  `Image-URL-L` varchar(255) CHARACTER SET latin1 COLLATE latin1_bin DEFAULT NULL,
+  `price` int(10) unsigned DEFAULT NULL,
+  `rating` int(3) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`ISBN`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
 --
 -- Dumping data for table `BX-Books`
 --
