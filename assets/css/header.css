@@ -143,3 +143,12 @@ table, th, td {
     float: right;
     padding-right: 8px;
 }
+
+.home-btn{
+    position: absolute;
+    top: 0;
+    right: 200px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+}

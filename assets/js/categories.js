@@ -8,13 +8,13 @@
 $(document).ready(function(){
 
     $('#openNav').on('click',function(){
-        document.getElementById("mySidenav").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "250px";
+        $('#mySidenav')[0].style.width = "250px";
+        $('#main')[0].style.marginLeft = "250px";
     });
 
     $('#closeNav').on('click',function(){
-        document.getElementById("mySidenav").style.width = "0";
-        document.getElementById("main").style.marginLeft= "0";
+        $('#mySidenav')[0].style.width = "0";
+        $('#main')[0].style.marginLeft= "0";
     });
     
     $(".ratings-dropdown").hide();

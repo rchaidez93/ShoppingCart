@@ -10,6 +10,8 @@
 var base_url = '<?php echo base_url();?>';    
 </script>
 <div id="mySidenav" class="sidenav">
+    <button class="home-btn"><a href="/shoppingcart"><i class="fa fa-home"></i></a></button>
+
     <a  class="closebtn" id="closeNav">&times;</a>
     <a style = "cursor: pointer" class="dropdown-ratings">Ratings &#8681;</a>
     <div class = "ratings-dropdown" style = "background-color: #273037;cursor:pointer;">
@@ -33,7 +35,7 @@ var base_url = '<?php echo base_url();?>';
         <a>2000-2005</a>
         <a>2005-2010</a>
     </div>
-    <a href="#">Contact</a>
+    <a href="<?php echo base_url() ?>contact">Contact</a>
 </div>
 
 <div id="main">
